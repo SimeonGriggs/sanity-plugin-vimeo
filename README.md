@@ -1,16 +1,13 @@
-# plugin-template-tool
+# sanity-plugin-vimeo
 
-Plugin template for a basic, empty tool.
+Once installed, this plugin will create a Schema for Vimeo videos.
 
-## Main take-aways
+The only config required is to put your Vimeo Access Token in an `.env.development` file like:
 
-- Tools implement the part named `part:@sanity/base/tool`
-- The file that implements the tool part needs to export an object containing properties such as a name, title, icon and React component to render. See `template/index.js`.
+```
+SANITY_STUDIO_VIMEO_ACCESS_TOKEN='xxx'
+```
 
-## Usage
+You will see a button at the top of the dashboard (which I would prefer be somewhere else!) which will fetch videos from the Vimeo REST API and insert them into your site.
 
-`sanity init plugin https://github.com/sanity-io/plugin-template-tool/archive/master.zip`
-
-## License
-
-MIT-licensed. See LICENSE.
+This plugin is a hot mess as I through it together quickly. YMMV.
