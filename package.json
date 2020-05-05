@@ -1,0 +1,33 @@
+{
+  "name": "sanity-plugin-vimeo",
+  "version": "0.0.1",
+  "description": "Creates a uneditable schema of documents populated by the Vimeo API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimeonGriggs/sanity-plugin-vimeo.git"
+  },
+  "keywords": [],
+  "author": "Simeon Griggs <simeon@tomoro.com.au>",
+  "license": "MIT",
+  "homepage": "https://github.com/SimeonGriggs/sanity-plugin-vimeo",
+  "sanityTemplate": {
+    "suggestedName": "vimeo",
+    "requiresConfig": false,
+    "minimumBaseVersion": "0.119.0"
+  },
+  "peerDependencies": {
+    "@sanity/base": "^1.149.10",
+    "@sanity/components": "^1.149.10",
+    "@sanity/core": "^1.149.12",
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.1",
+    "prettier": "^2.0.1",
+    "react-icons": "^3.10.0"
+  },
+  "dependencies": {}
+}

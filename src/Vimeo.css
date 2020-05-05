@@ -1,0 +1,13 @@
+.container,
+button {
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  appearance: none;
+}

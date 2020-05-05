@@ -1,0 +1,20 @@
+{
+  "parts": [
+    {
+      "implements": "part:@sanity/base/tool",
+      "path": "./src/VimeoTool.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./src/VimeoSchema.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./src/VimeoObjectSrcset.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./src/VimeoObjectPictures.js"
+    }
+  ]
+}
